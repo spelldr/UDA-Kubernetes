@@ -14,16 +14,16 @@ _A comprehensive Kubernetes reference built on Universal Documentation Architect
 
 This KB is organized by **user intent**, not topic. Choose based on what you're trying to do:
 
-| Intent | Section | Examples |
-|---|---|---|
-| **How do I...?** | [[20-Tasks]] | Deploy an app, create a Deployment, expose a service |
-| **What is...?** | [[30-Concepts]] | What's a Pod? What's Kubernetes? Architecture overview |
-| **Need exact syntax?** | [[40-Reference]] | Pod API, Deployment specs, Service fields |
-| **Something broke** | [[50-Troubleshooting]] | Pod won't start, service can't reach pod |
-| **Operate/maintain** | [[60-PlatformOps]] | Upgrade cluster, monitor nodes |
-| **What changed?** | [[80-ReleaseUpgrade]] | v1.26 breaking changes, deprecation notices |
-| **Why did we choose...?** | [[90-ADRs]] | Architecture decisions and tradeoffs |
-| **What does this mean?** | [[99-Glossary]] | Terminology and definitions |
+| Intent                    | Section                | Examples                                               |
+| ------------------------- | ---------------------- | ------------------------------------------------------ |
+| **How do I...?**          | [[Kubernetes-KB/20-Tasks/README]]           | Deploy an app, create a Deployment, expose a service   |
+| **What is...?**           | [[30-Concepts]]        | What's a Pod? What's Kubernetes? Architecture overview |
+| **Need exact syntax?**    | [[40-Reference]]       | Pod API, Deployment specs, Service fields              |
+| **Something broke**       | [[50-Troubleshooting]] | Pod won't start, service can't reach pod               |
+| **Operate/maintain**      | [[60-PlatformOps]]     | Upgrade cluster, monitor nodes                         |
+| **What changed?**         | [[80-ReleaseUpgrade]]  | v1.26 breaking changes, deprecation notices            |
+| **Why did we choose...?** | [[90-ADRs]]            | Architecture decisions and tradeoffs                   |
+| **What does this mean?**  | [[99-Glossary]]        | Terminology and definitions                            |
 
 ## Structure
 

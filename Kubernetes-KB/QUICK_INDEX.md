@@ -1,7 +1,9 @@
 # Kubernetes KB - Quick Reference Index
 
-**This is a quick lookup of every document in the KB.**
+```table-of-contents 
+```
 
+**This is a quick lookup of every document in the KB.*
 ---
 
 ## 📚 Main Entry Points

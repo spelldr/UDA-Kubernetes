@@ -11,6 +11,10 @@ estimated_time: 5 minutes
 
 _Answer: How do I create a Deployment with my own container image?_
 
+```ad-question
+What is a container image?
+```
+
 ## Quick Summary
 
 A Deployment describes desired state: "Run N replicas of this container with this configuration." You'll create a Deployment from scratch using a YAML manifest.

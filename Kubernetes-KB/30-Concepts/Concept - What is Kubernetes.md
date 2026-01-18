@@ -60,19 +60,17 @@ This is called **reconciliation** and is the magic that makes Kubernetes work.
 
 ## How It Works: The Big Picture
 
-```
-You create a manifest:
-(YAML file describing desired state)
-          ↓
-Kubernetes API Server processes it
-          ↓
-Controller continuously reconciles:
-  "Is actual state = desired state?"
-  If not, take action (create Pod, scale, etc.)
-          ↓
-Pods run on Nodes with monitoring
-          ↓
-If something fails, controller fixes it
+```mermaid
+flowchart TD
+    A["Create Manifest (YAML describing desired state)"]
+        --> B["Kubernetes API Server processes manifest"]
+    B --> C["Controller reconciliation loop:
+    Is actual state = desired state?"]
+    C -->|Yes| E["System stable"]
+    C -->|No| D["Controller takes action (create Pod, scale, etc.)"]
+    D --> F["Pods run on Nodes with monitoring"]
+    F --> G["If something fails, controller fixes it"]
+    G --> C
 ```
 
 ## Key Concepts You'll Encounter
