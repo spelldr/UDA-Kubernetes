@@ -288,19 +288,19 @@ Automatic. No manual intervention needed.
 
 ## Your Next Steps
 
-- [[Concept - What is Kubernetes]] (if you haven't read it)
-- [[Concept - Pods]], [[Concept - Deployments]], [[Concept - Services]] (understand key objects)
-- [[Task - Deploy Your First Application]] (see it in action)
+- [Concept - What is Kubernetes](Concept%20-%20What%20is%20Kubernetes.md) (if you haven't read it)
+- [Concept - Pods](Concept%20-%20Pods.md), [Concept - Deployments](Concept%20-%20Deployments.md), [Concept - Services](Concept%20-%20Services.md) (understand key objects)
+- [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) (see it in action)
 
 ## Related Concepts
 
-- [[Concept - Pods]] — Smallest unit
-- [[Concept - Deployments]] — Pod management
-- [[Concept - Services]] — Pod exposure
-- [[99-Glossary]] — etcd, kubelet, API Server, etc.
+- [Concept - Pods](Concept%20-%20Pods.md) — Smallest unit
+- [Concept - Deployments](Concept%20-%20Deployments.md) — Pod management
+- [Concept - Services](Concept%20-%20Services.md) — Pod exposure
+- [99-Glossary](../99-Glossary/Glossary.md) — etcd, kubelet, API Server, etc.
 
 ## See Also
 
 - Kubernetes official docs: Components
-- [[Reference - Pod API]] for object details
-- [[Reference - Deployment API]] for object details
+- [Reference - Pod API](../40-Reference/Reference%20-%20Pod%20API.md) for object details
+- Reference - Deployment API (planned) for object details

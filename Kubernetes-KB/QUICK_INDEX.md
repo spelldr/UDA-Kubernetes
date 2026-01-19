@@ -128,8 +128,8 @@
 3. Then: [Task - Expose an Application with Services](20-Tasks/Task%20-%20Expose%20an%20Application%20with%20Services.md)
 
 ### "Something is broken"
-1. Check: [Troubleshooting - Pod Won't Start](50-Troubleshooting/Troubleshooting%20-%20Pod%20Won't%20Start.md)
-2. Or: [Troubleshooting - Service Can't Reach Pod](50-Troubleshooting/Troubleshooting%20-%20Service%20Can't%20Reach%20Pod.md)
+1. Check: [Troubleshooting - Pod Won't Start](50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md)
+2. Or: [Troubleshooting - Service Can't Reach Pod](50-Troubleshooting/Troubleshooting%20-%20Service%20Can%27t%20Reach%20Pod.md)
 3. If not listed, search KB or read concepts to understand root cause
 
 ### "I need to understand architecture"
@@ -191,7 +191,7 @@
 
 ### For Operators (Specific Tasks)
 - Deploying: [Task - Deploy Your First Application](20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md)
-- Troubleshooting: Browse [[50-Troubleshooting]]
+- Troubleshooting: Browse [50-Troubleshooting/README.md](50-Troubleshooting/README.md)
 - Scaling: [Task - Scale a Deployment](20-Tasks/Task%20-%20Scale%20a%20Deployment.md)
 - Upgrading: [Runbook - Upgrade Kubernetes Cluster](60-PlatformOps/Runbook%20-%20Upgrade%20Kubernetes%20Cluster.md)
 

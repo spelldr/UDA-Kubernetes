@@ -15,9 +15,9 @@ Answer the question: "How do I fix...?" Each page walks you through diagnosing a
 
 ## When to Use Other Sections Instead
 
-- **Want to prevent problems** → [[20-Tasks]], [[30-Concepts]]
-- **Need background theory** → [[30-Concepts]]
-- **Need to run operations** → [[60-PlatformOps]]
+- **Want to prevent problems** → [20-Tasks/README.md](../20-Tasks/README.md), [30-Concepts/README.md](../30-Concepts/README.md)
+- **Need background theory** → [30-Concepts/README.md](../30-Concepts/README.md)
+- **Need to run operations** → [60-PlatformOps/README.md](../60-PlatformOps/README.md)
 
 ## How Troubleshooting Pages Are Structured
 
@@ -38,8 +38,8 @@ Each page includes:
 
 ## Example Topics
 
-- [[Troubleshooting - Pod Won't Start]]
-- [[Troubleshooting - Service Can't Reach Pod]]
+- [Troubleshooting - Pod Won't Start](Troubleshooting%20-%20Pod%20Won%27t%20Start.md)
+- [Troubleshooting - Service Can't Reach Pod](Troubleshooting%20-%20Service%20Can%27t%20Reach%20Pod.md)
 
 ## Severity Levels
 
@@ -49,13 +49,13 @@ Each page includes:
 ## Routing Rules
 
 From **Troubleshooting**, you can link to:
-- [[20-Tasks]] (for fixes)
-- [[30-Concepts]] (for background)
-- [[40-Reference]] (for field specs)
+- [20-Tasks/README.md](../20-Tasks/README.md) (for fixes)
+- [30-Concepts/README.md](../30-Concepts/README.md) (for background)
+- [40-Reference/README.md](../40-Reference/README.md) (for field specs)
 
 ---
 
 **Still stuck?** 
-- Check [[30-Concepts]] for background
+- Check [30-Concepts/README.md](../30-Concepts/README.md) for background
 - Use `kubectl describe` and `kubectl logs` to gather more info
 - Search the KB for your specific error message

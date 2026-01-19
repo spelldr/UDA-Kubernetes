@@ -15,9 +15,9 @@ Answer the question: "What are the exact fields/flags/options?" You already know
 
 ## When to Use Other Sections Instead
 
-- **Want to understand how it works** → [[30-Concepts]]
-- **Need step-by-step how-to** → [[20-Tasks]]
-- **Learning from scratch** → [[10-Tutorials]]
+- **Want to understand how it works** → [30-Concepts/README.md](../30-Concepts/README.md)
+- **Need step-by-step how-to** → [20-Tasks/README.md](../20-Tasks/README.md)
+- **Learning from scratch** → [10-Tutorials/README.md](../10-Tutorials/README.md)
 
 ## How Reference Pages Are Structured
 
@@ -32,9 +32,9 @@ Each reference page includes:
 
 ## Example Topics
 
-- [[Reference - Pod API]]
-- [[Reference - Deployment API]]
-- [[Reference - Service API]]
+- [Reference - Pod API](Reference%20-%20Pod%20API.md)
+- Reference - Deployment API (planned)
+- Reference - Service API (planned)
 
 ## Using This Section
 
@@ -48,10 +48,10 @@ Look up a resource:
 ## Routing Rules
 
 From **Reference**, you can link to:
-- [[30-Concepts]] (for explanation of why fields exist)
+- [30-Concepts/README.md](../30-Concepts/README.md) (for explanation of why fields exist)
 - Never Task (use Task → Reference instead)
 
 ---
 
-**Need examples?** See the [[20-Tasks]] page for that resource type.
-**Need explanation?** See the [[30-Concepts]] page for that resource.
+**Need examples?** See the [20-Tasks/README.md](../20-Tasks/README.md) page for that resource type.
+**Need explanation?** See the [30-Concepts/README.md](../30-Concepts/README.md) page for that resource.

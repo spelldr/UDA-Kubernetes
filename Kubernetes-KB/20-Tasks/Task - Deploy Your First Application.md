@@ -128,7 +128,7 @@ Your Deployment is running! You now have:
 
 Right now, nginx is running but not accessible from outside the cluster. To access it, create a Service:
 
-[[Task - Expose an Application with Services]]
+[Task - Expose an Application with Services](Task%20-%20Expose%20an%20Application%20with%20Services.md)
 
 ## Common Pitfalls
 
@@ -156,8 +156,8 @@ This removes the Deployment and all its Pods.
 
 ## See Also
 
-- [[Concept - Deployments]] to understand what you just created
-- [[Concept - Pods]] to understand the individual Pods
-- [[Task - Expose an Application with Services]] to make it accessible
-- [[Reference - Deployment API]] for all Deployment options
-- [[Troubleshooting - Pod Won't Start]] if things go wrong
+- [Concept - Deployments](../30-Concepts/Concept%20-%20Deployments.md) to understand what you just created
+- [Concept - Pods](../30-Concepts/Concept%20-%20Pods.md) to understand the individual Pods
+- [Task - Expose an Application with Services](Task%20-%20Expose%20an%20Application%20with%20Services.md) to make it accessible
+- Reference - Deployment API (planned) for all Deployment options
+- [Troubleshooting - Pod Won't Start](../50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) if things go wrong

@@ -108,9 +108,9 @@ watch kubectl get nodes
 
 ## References
 
-- [[Concept - Cluster Architecture]]
-- [[Task - Upgrade Kubernetes]]
-- Related runbook: [[Runbook - Backup etcd]]
+- [Concept - Architecture Overview](../../30-Concepts/Concept%20-%20Architecture%20Overview.md)
+- Task - Upgrade Kubernetes
+- Related runbook: Runbook - Backup etcd
 
 ## Success Criteria
 

@@ -21,7 +21,7 @@ This runbook walks you through upgrading a Kubernetes cluster with zero downtime
 - [ ] Backup etcd completed
 - [ ] Current Kubernetes version: `kubectl version --short`
 - [ ] Target version planned (e.g., 1.26 → 1.27)
-- [ ] Read release notes: [[80-ReleaseUpgrade]] for breaking changes
+- [ ] Read release notes: [Release & Upgrade](../80-ReleaseUpgrade/README.md) for breaking changes
 
 ## Timeline
 
@@ -344,13 +344,13 @@ Upgrade successful when:
 
 ## Related Runbooks
 
-- [[60-PlatformOps/Runbook - Backup etcd]]
-- [[Troubleshooting - Upgrade Issues]]
+- Runbook - Backup etcd (planned)
+- Troubleshooting - Upgrade Issues (planned)
 
 ## See Also
 
-- [[80-ReleaseUpgrade]] for version-specific breaking changes
-- [[Concept - Architecture Overview]] for cluster understanding
+- [Release & Upgrade](../80-ReleaseUpgrade/README.md) for version-specific breaking changes
+- [Concept - Architecture Overview](../30-Concepts/Concept%20-%20Architecture%20Overview.md) for cluster understanding
 - Release notes: https://kubernetes.io/releases/
 
 ---

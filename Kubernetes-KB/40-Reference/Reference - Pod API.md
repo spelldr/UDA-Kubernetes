@@ -307,6 +307,6 @@ kubectl delete pod my-pod
 
 ## See Also
 
-- [[Concept - Pods]] for explanation
-- [[Task - Deploy Your First Application]] for practical example
-- [[Troubleshooting - Pod Won't Start]] for common issues
+- [Concept - Pods](../30-Concepts/Concept%20-%20Pods.md) for explanation
+- [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) for practical example
+- [Troubleshooting - Pod Won't Start](../50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) for common issues

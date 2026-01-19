@@ -166,7 +166,7 @@ Kubernetes-KB/
 - ✅ All links follow UDA routing discipline
 - ✅ No circular dependencies
 - ✅ Every page links related pages appropriately
-- ✅ Ready for wikilink format (`[[Page Name]]`)
+- ✅ Ready for wikilink format (Obsidian-style page names)
 
 ### Validation & Quality
 - ✅ All code examples tested and working
@@ -188,15 +188,15 @@ Kubernetes-KB/
 
 | If you want to... | Go to... |
 |---|---|
-| Learn Kubernetes fundamentals | [[30-Concepts/Concept - What is Kubernetes]] |
-| Deploy your first app | [[20-Tasks/Task - Deploy Your First Application]] |
-| Understand Pods | [[30-Concepts/Concept - Pods]] |
-| Create a Deployment | [[20-Tasks/Task - Create a Deployment]] |
-| Access your app externally | [[20-Tasks/Task - Expose an Application with Services]] |
-| Debug a failing Pod | [[50-Troubleshooting/Troubleshooting - Pod Won't Start]] |
-| Upgrade the cluster | [[60-PlatformOps/Runbook - Upgrade Kubernetes Cluster]] |
-| Look up Pod API fields | [[40-Reference/Reference - Pod API]] |
-| Understand Kubernetes architecture | [[30-Concepts/Concept - Architecture Overview]] |
+| Learn Kubernetes fundamentals | [30-Concepts/Concept - What is Kubernetes.md](30-Concepts/Concept%20-%20What%20is%20Kubernetes.md) |
+| Deploy your first app | [20-Tasks/Task - Deploy Your First Application.md](20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) |
+| Understand Pods | [30-Concepts/Concept - Pods.md](30-Concepts/Concept%20-%20Pods.md) |
+| Create a Deployment | [20-Tasks/Task - Create a Deployment.md](20-Tasks/Task%20-%20Create%20a%20Deployment.md) |
+| Access your app externally | [20-Tasks/Task - Expose an Application with Services.md](20-Tasks/Task%20-%20Expose%20an%20Application%20with%20Services.md) |
+| Debug a failing Pod | [50-Troubleshooting/Troubleshooting - Pod Won't Start.md](50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) |
+| Upgrade the cluster | [60-PlatformOps/Runbook - Upgrade Kubernetes Cluster.md](60-PlatformOps/Runbook%20-%20Upgrade%20Kubernetes%20Cluster.md) |
+| Look up Pod API fields | [40-Reference/Reference - Pod API.md](40-Reference/Reference%20-%20Pod%20API.md) |
+| Understand Kubernetes architecture | [30-Concepts/Concept - Architecture Overview.md](30-Concepts/Concept%20-%20Architecture%20Overview.md) |
 
 ### Search Tips
 - Use `Ctrl+Shift+F` to search all pages
@@ -209,13 +209,13 @@ Kubernetes-KB/
 ## Maintenance & Growth
 
 ### For Contributors
-- Follow **[[00-Start/Creating a New Page - Checklist]]**
+- Follow **[00-Start/Creating a New Page - Checklist.md](00-Start/Creating%20a%20New%20Page%20-%20Checklist.md)**
 - Use templates from **00-Start/Templates/**
 - Follow routing rules in **DOCUMENTATION_DOCTRINE.md**
 - New pages marked `status: needs_review` then verified
 
 ### For Section Owners
-- See **[[00-Start/Maintenance Workflow]]**
+- See **[00-Start/Maintenance Workflow.md](00-Start/Maintenance%20Workflow.md)**
 - Monthly/quarterly review cadence defined
 - Auto-flag pages exceeding half-life threshold
 - Event-driven updates for releases, incidents, changes
@@ -309,7 +309,7 @@ Kubernetes-KB/
 ### Immediate (Day 1)
 1. ✅ Read **README.md** (overview)
 2. ✅ Read **00-Start/Welcome & Conventions.md** (how to use)
-3. ✅ Try [[20-Tasks/Task - Deploy Your First Application]] (hands-on)
+3. ✅ Try [20-Tasks/Task - Deploy Your First Application.md](20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) (hands-on)
 
 ### Short-term (Week 1)
 1. Assign section owners (see **Maintenance Workflow**)

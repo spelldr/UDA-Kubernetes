@@ -200,13 +200,13 @@ Kubernetes scales to 5 Pods.
 
 ## Next Steps
 
-- [[Task - Expose an Application with Services]] to access it from outside
-- [[Task - Scale a Deployment]] to change replica count
-- [[Reference - Deployment API]] to see all options
-- [[Concept - Deployments]] to understand how it works
+- [Task - Expose an Application with Services](Task%20-%20Expose%20an%20Application%20with%20Services.md) to access it from outside
+- [Task - Scale a Deployment](Task%20-%20Scale%20a%20Deployment.md) to change replica count
+- Reference - Deployment API (planned) to see all options
+- [Concept - Deployments](../30-Concepts/Concept%20-%20Deployments.md) to understand how it works
 
 ## See Also
 
-- [[Task - Deploy Your First Application]] for basic example
-- [[Reference - Deployment API]] for complete field reference
-- [[Troubleshooting - Pod Won't Start]] if it fails
+- [Task - Deploy Your First Application](Task%20-%20Deploy%20Your%20First%20Application.md) for basic example
+- Reference - Deployment API (planned) for complete field reference
+- [Troubleshooting - Pod Won't Start](../50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) if it fails

@@ -6,18 +6,18 @@ Step-by-step checklist for contributing a new page to the KB.
 
 **Question:** What is the user trying to do/understand/fix?
 
-Use the [[DOCUMENTATION_DOCTRINE.md|routing matrix]] to choose the right page type:
+Use the [routing matrix](../../UDA%20-%20Kubernetes/DOCUMENTATION_DOCTRINE.md) to choose the right page type:
 
 | User Intent | Page Type | Go to Template |
 |---|---|---|
-| "How do I...?" | Task | [[Template - Task.md]] |
-| "What is...?" | Concept | [[Template - Concept.md]] |
-| "What are exact fields?" | Reference | [[Template - Reference.md]] |
-| "How do I fix...?" | Troubleshooting | [[Template - Troubleshooting.md]] |
-| "How do I operate...?" | Runbook | [[Template - Runbook.md]] |
-| "What changed?" | Release Notes | [[Template - Release Notes.md]] |
-| "Why did we choose...?" | ADR | [[Template - ADR.md]] |
-| "What does this mean?" | Glossary | [[Template - Glossary.md]] |
+| "How do I...?" | Task | [Template - Task.md](Templates/Template%20-%20Task.md) |
+| "What is...?" | Concept | [Template - Concept.md](Templates/Template%20-%20Concept.md) |
+| "What are exact fields?" | Reference | [Template - Reference.md](Templates/Template%20-%20Reference.md) |
+| "How do I fix...?" | Troubleshooting | [Template - Troubleshooting.md](Templates/Template%20-%20Troubleshooting.md) |
+| "How do I operate...?" | Runbook | [Template - Runbook.md](Templates/Template%20-%20Runbook.md) |
+| "What changed?" | Release Notes | [Template - Release Notes.md](Templates/Template%20-%20Release%20Notes.md) |
+| "Why did we choose...?" | ADR | [Template - ADR.md](Templates/Template%20-%20ADR.md) |
+| "What does this mean?" | Glossary | [Template - Glossary.md](Templates/Template%20-%20Glossary.md) |
 
 **If it doesn't fit one type, you need to split it into multiple pages.**
 
@@ -45,11 +45,13 @@ Based on page type:
 4. Paste the template
 
 **Naming convention:**
+
 ```
 [Type] - [Question Being Answered].md
 ```
 
 Examples:
+
 - `Task - Deploy Your First Application.md`
 - `Concept - What is Kubernetes.md`
 - `Troubleshooting - Pod Won't Start.md`
@@ -81,6 +83,7 @@ status: current
 Add type-specific metadata:
 
 **Task pages:**
+
 ```yaml
 prerequisites: [List of required knowledge]
 difficulty: Beginner | Intermediate
@@ -88,23 +91,27 @@ estimated_time: X minutes
 ```
 
 **Concept pages:**
+
 ```yaml
 audience: Beginner | Intermediate | Advanced
 ```
 
 **Reference pages:**
+
 ```yaml
 version_min: "X.Y"
 version_max: "X.Y"
 ```
 
 **Troubleshooting pages:**
+
 ```yaml
 symptom_keywords: [list, of, keywords]
 severity: common | rare
 ```
 
 **Runbook pages:**
+
 ```yaml
 maintenance_cadence: monthly | quarterly | event-driven
 runbook_owner: Team Name
@@ -117,11 +124,12 @@ runbook_owner: Team Name
 - [ ] **Concise:** No unnecessary explanation?
 - [ ] **Examples work:** Did you test the commands/code?
 - [ ] **Complete:** Does it answer the complete question?
-- [ ] **Links work:** All wikilinks `[[...]]` point to real pages
+- [ ] **Links work:** All markdown links point to real pages. Replace any wikiLinks ([[xx]]) with markdown links
 
 ### Content Rules
 
 ✓ **DO:**
+
 - Answer one specific question
 - Use concrete examples
 - Test every command/code example
@@ -129,6 +137,7 @@ runbook_owner: Team Name
 - Link to reference for syntax details
 
 ✗ **DON'T:**
+
 - Mix multiple questions in one page
 - Explain unnecessary background (link to Concept instead)
 - Use unexamined jargon
@@ -140,30 +149,35 @@ runbook_owner: Team Name
 Following the routing matrix:
 
 **Task pages** link to:
-- [ ] [[40-Reference|Reference]] pages (for exact syntax)
-- [ ] [[30-Concepts|Concept]] pages (for understanding)
-- [ ] [[50-Troubleshooting|Troubleshooting]] pages (for help)
+
+- [ ] [Reference](../40-Reference/README.md) pages (for exact syntax)
+- [ ] [Concept](../30-Concepts/README.md) pages (for understanding)
+- [ ] [Troubleshooting](../50-Troubleshooting/README.md) pages (for help)
 - Never other Task pages
 
 **Concept pages** link to:
-- [ ] Other [[30-Concepts|Concept]] pages (related ideas)
-- [ ] [[40-Reference|Reference]] pages (for specs)
+
+- [ ] Other [Concept](../30-Concepts/README.md) pages (related ideas)
+- [ ] [Reference](../40-Reference/README.md) pages (for specs)
 - Never Task pages
 
 **Reference pages** link to:
-- [ ] [[30-Concepts|Concept]] pages (for explanation)
+
+- [ ] [Concept](../30-Concepts/README.md) pages (for explanation)
 - [ ] Never Task or Reference pages
 
 **Troubleshooting pages** link to:
-- [ ] [[20-Tasks|Task]] pages (for fixes)
-- [ ] [[30-Concepts|Concept]] pages (for background)
-- [ ] [[40-Reference|Reference]] pages (for specs)
 
-**Use wikilink format:** `[[Folder/Page Name]]` or `[[Page Name]]`
+- [ ] [Task](../20-Tasks/README.md) pages (for fixes)
+- [ ] [Concept](../30-Concepts/README.md) pages (for background)
+- [ ] [Reference](../40-Reference/README.md) pages (for specs)
+
+**Use markdown links:** `[Page Title](relative-path.md)`
 
 ## Step 7: Verify Links
 
 In Obsidian:
+
 1. Open the Command Palette (Ctrl+Shift+P)
 2. Search for "Find unlinked references"
 3. Fix any broken or unintended links
@@ -173,24 +187,28 @@ In Obsidian:
 Before you consider the page "done":
 
 ### Structure
+
 - [ ] Correct template used (Task/Concept/Reference/etc.)
 - [ ] All template sections present (none removed/renamed)
 - [ ] Frontmatter metadata complete
 
 ### Content
+
 - [ ] Answers one clear question
 - [ ] Uses plain language
 - [ ] Examples are tested and correct
 - [ ] Code is properly formatted with syntax highlighting
-- [ ] No broken wikilinks `[[...]]`
+- [ ] No broken markdown links
 - [ ] No duplicated content from other pages
 
 ### Links
+
 - [ ] Cross-links follow routing discipline
 - [ ] Links point to real pages
 - [ ] No circular dependencies (Concept ↔ Task)
 
 ### Metadata
+
 - [ ] `author` is filled in
 - [ ] `last_verified` is today's date
 - [ ] `status` is one of: `current`, `needs_review`, `stale`, `superseded`
@@ -201,7 +219,7 @@ Before you consider the page "done":
 When your page is ready:
 
 1. Mark `status: needs_review` in frontmatter
-2. Ask the section owner (check [[Maintenance Workflow]] for assignments)
+2. Ask the section owner (check [Maintenance Workflow](Maintenance%20Workflow.md) for assignments)
 3. Or create a PR if this is in version control
 4. Incorporate feedback
 5. Change `status: current` when approved
@@ -239,9 +257,9 @@ Once reviewed and approved:
 
 ## If You're Stuck
 
-- **Confused about page type?** See [[DOCUMENTATION_DOCTRINE.md|routing matrix]]
+- **Confused about page type?** See [routing matrix](../../UDA%20-%20Kubernetes/DOCUMENTATION_DOCTRINE.md)
 - **Need a template?** `00-Start/Templates/`
-- **Unsure about links?** Check [[DOCUMENTATION_DOCTRINE.md#8-Cross-Linking-Follows-Routing-Rules|routing rules]]
+- **Unsure about links?** Check [routing rules](../../UDA%20-%20Kubernetes/DOCUMENTATION_DOCTRINE.md#8-Cross-Linking-Follows-Routing-Rules)
 - **Want an example?** Look at an existing page in the KB
 
 ---

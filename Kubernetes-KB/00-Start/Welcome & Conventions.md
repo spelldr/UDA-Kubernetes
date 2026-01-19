@@ -16,27 +16,27 @@ This is a **Kubernetes Knowledge Base** built on the **Universal Documentation A
 
 | Goal | Go here |
 |---|---|
-| **Learn what Kubernetes is** | [[30-Concepts/Concept - What is Kubernetes]] |
-| **Deploy an app** | [[20-Tasks/Task - Deploy Your First Application]] |
-| **Understand Pods** | [[30-Concepts/Concept - Pods]] |
-| **Create a Deployment** | [[20-Tasks/Task - Create a Deployment]] |
-| **Expose my app publicly** | [[20-Tasks/Task - Expose an Application with Services]] |
-| **Look up Pod fields** | [[40-Reference/Reference - Pod API]] |
-| **Debug a failing Pod** | [[50-Troubleshooting/Troubleshooting - Pod Won't Start]] |
-| **Upgrade the cluster** | [[60-PlatformOps/Runbook - Upgrade Kubernetes Cluster]] |
-| **Understand architecture** | [[30-Concepts/Concept - Architecture Overview]] |
+| **Learn what Kubernetes is** | [Concept - What is Kubernetes](../30-Concepts/Concept%20-%20What%20is%20Kubernetes.md) |
+| **Deploy an app** | [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) |
+| **Understand Pods** | [Concept - Pods](../30-Concepts/Concept%20-%20Pods.md) |
+| **Create a Deployment** | [Task - Create a Deployment](../20-Tasks/Task%20-%20Create%20a%20Deployment.md) |
+| **Expose my app publicly** | [Task - Expose an Application with Services](../20-Tasks/Task%20-%20Expose%20an%20Application%20with%20Services.md) |
+| **Look up Pod fields** | [Reference - Pod API](../40-Reference/Reference%20-%20Pod%20API.md) |
+| **Debug a failing Pod** | [Troubleshooting - Pod Won't Start](../50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) |
+| **Upgrade the cluster** | [Runbook - Upgrade Kubernetes Cluster](../60-PlatformOps/Runbook%20-%20Upgrade%20Kubernetes%20Cluster.md) |
+| **Understand architecture** | [Concept - Architecture Overview](../30-Concepts/Concept%20-%20Architecture%20Overview.md) |
 
 ### Browsing
 
 **Table of Contents by Intent:**
-- [[20-Tasks]] — How-to guides (step-by-step answers)
-- [[30-Concepts]] — Explanations (understand the why)
-- [[40-Reference]] — API documentation (exact syntax)
-- [[50-Troubleshooting]] — Diagnosis and fixes
-- [[60-PlatformOps]] — Operational procedures
-- [[80-ReleaseUpgrade]] — What changed, how to upgrade
-- [[90-ADRs]] — Why we made certain decisions
-- [[99-Glossary]] — Terminology
+- [20-Tasks/README.md](../20-Tasks/README.md) — How-to guides (step-by-step answers)
+- [30-Concepts/README.md](../30-Concepts/README.md) — Explanations (understand the why)
+- [40-Reference/README.md](../40-Reference/README.md) — API documentation (exact syntax)
+- [50-Troubleshooting/README.md](../50-Troubleshooting/README.md) — Diagnosis and fixes
+- [60-PlatformOps/README.md](../60-PlatformOps/README.md) — Operational procedures
+- [80-ReleaseUpgrade/README.md](../80-ReleaseUpgrade/README.md) — What changed, how to upgrade
+- [90-ADRs/README.md](../90-ADRs/README.md) — Why we made certain decisions
+- [99-Glossary/Glossary.md](../99-Glossary/Glossary.md) — Terminology
 
 ### Search
 
@@ -54,10 +54,10 @@ Instead of a table of contents organized alphabetically ("Deployments", "Pods", 
 
 | User Intent | Section | Example |
 |---|---|---|
-| "How do I...?" | [[20-Tasks]] | [[Task - Deploy Your First Application]] |
-| "What is...?" | [[30-Concepts]] | [[Concept - Pods]] |
-| "Exact syntax?" | [[40-Reference]] | [[Reference - Pod API]] |
-| "How do I fix...?" | [[50-Troubleshooting]] | [[Troubleshooting - Pod Won't Start]] |
+| "How do I...?" | [20-Tasks/README.md](../20-Tasks/README.md) | [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) |
+| "What is...?" | [30-Concepts/README.md](../30-Concepts/README.md) | [Concept - Pods](../30-Concepts/Concept%20-%20Pods.md) |
+| "Exact syntax?" | [40-Reference/README.md](../40-Reference/README.md) | [Reference - Pod API](../40-Reference/Reference%20-%20Pod%20API.md) |
+| "How do I fix...?" | [50-Troubleshooting/README.md](../50-Troubleshooting/README.md) | [Troubleshooting - Pod Won't Start](../50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) |
 
 This matches how your brain searches for information.
 
@@ -134,14 +134,14 @@ Never Task → Task. This keeps navigation clear.
 
 ### Examples
 
-- Searching for "how do I deploy"? → [[20-Tasks]] folder
-- Searching for "what is a service"? → [[30-Concepts]] folder
-- Searching for "pod fields"? → [[40-Reference]] folder
-- Searching for "pod stuck"? → [[50-Troubleshooting]] folder
+- Searching for "how do I deploy"? → [20-Tasks](../20-Tasks/README.md) folder
+- Searching for "what is a service"? → [30-Concepts](../30-Concepts/README.md) folder
+- Searching for "pod fields"? → [40-Reference](../40-Reference/README.md) folder
+- Searching for "pod stuck"? → [50-Troubleshooting](../50-Troubleshooting/README.md) folder
 
 ## How to Contribute
 
-Found an error? Want to add something? See [[Creating a New Page - Checklist]].
+Found an error? Want to add something? See [Creating a New Page - Checklist](Creating%20a%20New%20Page%20-%20Checklist.md).
 
 ## Key Principles
 
@@ -154,24 +154,24 @@ This KB follows these non-negotiable rules:
 5. **No duplication** (one source of truth)
 6. **Verifiable facts** (we test examples)
 
-See [[DOCUMENTATION_DOCTRINE.md]] for all the rules.
+See [DOCUMENTATION_DOCTRINE.md](../../UDA%20-%20Kubernetes/DOCUMENTATION_DOCTRINE.md) for all the rules.
 
 ## Troubleshooting the KB Itself
 
 **Can't find something?**
-- Check [[20-Tasks]] first (most common questions answered there)
+- Check [20-Tasks/README.md](../20-Tasks/README.md) first (most common questions answered there)
 - Try search (Ctrl+Shift+F)
-- Check related [[Concept]] pages for background
+- Check related concept pages for background
 
 **A page is wrong or outdated?**
 - Check the `last_verified` date in the metadata
-- See [[Maintenance Workflow]] for how to flag stale content
+- See [Maintenance Workflow](Maintenance%20Workflow.md) for how to flag stale content
 
 **Want to contribute?**
-- See [[Creating a New Page - Checklist]]
+- See [Creating a New Page - Checklist](Creating%20a%20New%20Page%20-%20Checklist.md)
 - Use a template from `00-Start/Templates/`
-- Follow the routing rules in [[DOCUMENTATION_DOCTRINE.md]]
+- Follow the routing rules in [DOCUMENTATION_DOCTRINE.md](../../UDA%20-%20Kubernetes/DOCUMENTATION_DOCTRINE.md)
 
 ---
 
-**Happy learning!** Start with [[20-Tasks/Task - Deploy Your First Application]] or [[30-Concepts/Concept - What is Kubernetes]].
+**Happy learning!** Start with [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) or [Concept - What is Kubernetes](../30-Concepts/Concept%20-%20What%20is%20Kubernetes.md).

@@ -228,17 +228,17 @@ Kubernetes continuously makes actual state match desired state.
 
 ## Your Next Steps
 
-- [[Task - Create a Deployment]] (hands-on: create your first Deployment)
-- [[Task - Scale a Deployment]] (learn scaling)
-- [[Reference - Deployment API]] (see all fields)
+- [Task - Create a Deployment](../20-Tasks/Task%20-%20Create%20a%20Deployment.md) (hands-on: create your first Deployment)
+- [Task - Scale a Deployment](../20-Tasks/Task%20-%20Scale%20a%20Deployment.md) (learn scaling)
+- Reference - Deployment API (planned) (see all fields)
 
 ## Related Concepts
 
-- [[Concept - Pods]] — Individual containers
-- [[Concept - Services]] — How to expose Deployments
-- [[Concept - ReplicaSets]] — Lower-level Pod management (usually automatic)
+- [Concept - Pods](Concept%20-%20Pods.md) — Individual containers
+- [Concept - Services](Concept%20-%20Services.md) — How to expose Deployments
+- Concept - ReplicaSets — Lower-level Pod management (usually automatic)
 
 ## See Also
 
-- [[Task - Deploy Your First Application]] for practical example
-- [[Reference - Deployment API]] for complete field reference
+- [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) for practical example
+- Reference - Deployment API (planned) for complete field reference

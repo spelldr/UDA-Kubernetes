@@ -63,24 +63,24 @@ Each page type has an expected "freshness" threshold. When exceeded, auto-flag f
 ### Event-Driven (Immediate)
 
 **New Kubernetes Release:**
-- Update [[80-ReleaseUpgrade]] with new release notes
-- Update [[40-Reference]] pages affected by API changes
-- Update [[20-Tasks]] pages affected by new features
-- Update [[30-Concepts]] pages with new capabilities
+- Update [Release & Upgrade](../80-ReleaseUpgrade/README.md) with new release notes
+- Update [Reference](../40-Reference/README.md) pages affected by API changes
+- Update [Tasks](../20-Tasks/README.md) pages affected by new features
+- Update [Concepts](../30-Concepts/README.md) pages with new capabilities
 
 **Incident Occurs:**
-- Same-day: Update [[50-Troubleshooting]] pages
+- Same-day: Update [Troubleshooting](../50-Troubleshooting/README.md) pages
 - Create new troubleshooting page if gap identified
-- Update [[20-Tasks]] pages to prevent future incidents
+- Update [Tasks](../20-Tasks/README.md) pages to prevent future incidents
 
 **CVE or Security Issue:**
-- Flag [[50-Troubleshooting]] pages
-- Update [[60-PlatformOps]] runbooks
+- Flag [Troubleshooting](../50-Troubleshooting/README.md) pages
+- Update [PlatformOps](../60-PlatformOps/README.md) runbooks
 - Create/update security-related pages
 
 **API Deprecation:**
 - Flag all pages mentioning deprecated API
-- Create migration guide in [[20-Tasks]]
+- Create migration guide in [20-Tasks](../20-Tasks/README.md)
 - Link from old pages to new pages
 
 ## How to Flag Pages for Review
@@ -104,25 +104,25 @@ status: needs_review
 1. Mark `status: stale`
 2. Add notice at top of page:
    ```markdown
-   > ⚠️ **This page is outdated.** See [[Newer Page]] instead.
+   > ⚠️ **This page is outdated.** See [Newer Page](./) instead.
    ```
 3. Don't delete (leave it for historical reference)
 
 **Superseded page:** Replaced by a newer page
 
 1. Mark `status: superseded`
-2. Add frontmatter: `supersedes: [[Old Page]]`
+2. Add frontmatter: `supersedes: [Old Page](./)`
 3. Add notice:
    ```markdown
-   > **Superseded by [[New Page]].** See that page instead.
+   > **Superseded by [New Page](./).** See that page instead.
    ```
 
 ## Handling Broken Links
 
-If you see `[[Page That Doesn't Exist]]`:
+If you see a missing page placeholder:
 
 1. Check if the page should exist
-2. If yes: Create it (or add to [[20-Tasks]] backlog)
+2. If yes: Create it (or add to [20-Tasks](../20-Tasks/README.md) backlog)
 3. If no: Fix the link to point to correct page
 4. If correcting: Test that link works in Obsidian
 
@@ -134,7 +134,7 @@ If you find the same information in two pages:
 2. Delete duplicate content from secondary page
 3. Add link from secondary page to authoritative page:
    ```markdown
-   > For details, see [[Authoritative Page]].
+   > For details, see [Authoritative Page](./).
    ```
 4. Update `last_verified` on both pages
 
@@ -151,7 +151,7 @@ When you verify a page:
 
 ## Contributing a Page
 
-For new pages, follow [[Creating a New Page - Checklist]]:
+For new pages, follow [Creating a New Page - Checklist](Creating%20a%20New%20Page%20-%20Checklist.md):
 
 1. Use correct template
 2. Fill in all sections
@@ -164,7 +164,7 @@ For new pages, follow [[Creating a New Page - Checklist]]:
 ## Tools
 
 **Obsidian plugins that help:**
-- **Dataview:** Auto-generate lists of stale pages (see [[DASHBOARDS]])
+- **Dataview:** Auto-generate lists of stale pages (see [DASHBOARDS](../../UDA%20-%20Kubernetes/DASHBOARDS.md))
 - **Find unlinked references:** Catch broken links
 
 **Manual:**

@@ -276,18 +276,18 @@ Distributes requests across multiple Pods. Default: round-robin.
 
 ## Your Next Steps
 
-- [[Task - Expose an Application with Services]] (hands-on: create your first Service)
-- [[Reference - Service API]] (see all Service fields)
-- [[Concept - Deployments]] (need this to understand complete example)
+- [Task - Expose an Application with Services](../20-Tasks/Task%20-%20Expose%20an%20Application%20with%20Services.md) (hands-on: create your first Service)
+- Reference - Service API (planned) (see all Service fields)
+- [Concept - Deployments](Concept%20-%20Deployments.md) (need this to understand complete example)
 
 ## Related Concepts
 
-- [[Concept - Pods]] — What Services route to
-- [[Concept - Deployments]] — Creates Pods that Services expose
-- [[Concept - Namespaces]] — Affect DNS names
+- [Concept - Pods](Concept%20-%20Pods.md) — What Services route to
+- [Concept - Deployments](Concept%20-%20Deployments.md) — Creates Pods that Services expose
+- Concept - Namespaces — Affect DNS names
 
 ## See Also
 
-- [[Task - Expose an Application with Services]] for step-by-step
-- [[Reference - Service API]] for complete reference
-- [[Troubleshooting - Service Can't Reach Pod]] if something goes wrong
+- [Task - Expose an Application with Services](../20-Tasks/Task%20-%20Expose%20an%20Application%20with%20Services.md) for step-by-step
+- Reference - Service API (planned) for complete reference
+- [Troubleshooting - Service Can't Reach Pod](../50-Troubleshooting/Troubleshooting%20-%20Service%20Can%27t%20Reach%20Pod.md) if something goes wrong

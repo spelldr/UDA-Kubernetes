@@ -191,7 +191,7 @@ kubectl describe pod my-pod
 
 **Fix:**
 
-See [[Troubleshooting - Pod Won't Start]]
+See [Troubleshooting - Pod Won't Start](Troubleshooting%20-%20Pod%20Won%27t%20Start.md)
 
 ### Cause 5: Network Policy Blocking Traffic
 
@@ -255,7 +255,7 @@ Service can't reach Pods?
 │
 ├─ Do Pods exist and are Running?
 │  └─ kubectl get pods
-│     └─ No → [[Troubleshooting - Pod Won't Start]]
+│     └─ No → [Troubleshooting - Pod Won't Start](Troubleshooting%20-%20Pod%20Won%27t%20Start.md)
 │     └─ Yes → Continue
 │
 ├─ Does Service have Endpoints?
@@ -354,7 +354,7 @@ spec:
 
 ## See Also
 
-- [[Concept - Services]] for explanation
-- [[Reference - Service API]] for complete service spec
-- [[Task - Expose an Application with Services]] for working example
-- [[Troubleshooting - Pod Won't Start]] if Pods aren't running
+- [Concept - Services](../30-Concepts/Concept%20-%20Services.md) for explanation
+- Reference - Service API (planned) for complete service spec
+- [Task - Expose an Application with Services](../20-Tasks/Task%20-%20Expose%20an%20Application%20with%20Services.md) for working example
+- [Troubleshooting - Pod Won't Start](Troubleshooting%20-%20Pod%20Won%27t%20Start.md) if Pods aren't running

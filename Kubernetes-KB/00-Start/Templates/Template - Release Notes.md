@@ -90,9 +90,9 @@ spec:
 
 **From 1.26 to 1.27:**
 
-1. [[Runbook - Upgrade Kubernetes Cluster]]
-2. Check [[Breaking Changes]] above
-3. Follow [[Task - Migrate from oldway to newway]] if needed
+1. [Runbook - Upgrade Kubernetes Cluster](../../60-PlatformOps/Runbook%20-%20Upgrade%20Kubernetes%20Cluster.md)
+2. Check the Breaking Changes above
+3. Follow Task - Migrate from oldway to newway if needed
 
 **Supported versions:** 1.27.0 → 1.27.5 (current)
 

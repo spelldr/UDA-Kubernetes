@@ -15,9 +15,9 @@ Step-by-step procedures for cluster operations: upgrades, backups, maintenance, 
 
 ## When to Use Other Sections Instead
 
-- **Need explanation/theory** → [[30-Concepts]]
-- **Quick how-to (not operational)** → [[20-Tasks]]
-- **Something's broken** → [[50-Troubleshooting]]
+- **Need explanation/theory** → [30-Concepts/README.md](../30-Concepts/README.md)
+- **Quick how-to (not operational)** → [20-Tasks/README.md](../20-Tasks/README.md)
+- **Something's broken** → [50-Troubleshooting/README.md](../50-Troubleshooting/README.md)
 
 ## How Runbooks Are Structured
 
@@ -39,7 +39,7 @@ Each runbook includes:
 
 ## Example Topics
 
-- [[Runbook - Upgrade Kubernetes Cluster]]
+- [Runbook - Upgrade Kubernetes Cluster](Runbook%20-%20Upgrade%20Kubernetes%20Cluster.md)
 
 ## Important Notes
 

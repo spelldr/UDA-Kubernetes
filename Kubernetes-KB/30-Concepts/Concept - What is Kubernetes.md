@@ -38,7 +38,7 @@ This is called **reconciliation** and is the magic that makes Kubernetes work.
 
 ## What Kubernetes Manages
 
-- **Containers:** Groups of containers (called [[Concept - Pods]])
+- **Containers:** Groups of containers (called [Concept - Pods](Concept%20-%20Pods.md))
 - **Resources:** Memory, CPU, storage allocation
 - **Networking:** How containers talk to each other and the outside world
 - **Storage:** Persistent data
@@ -122,16 +122,16 @@ If you're running more than a handful of containers, Kubernetes saves you:
 
 ## Your Next Steps
 
-- [[Task - Deploy Your First Application]] (practical: run something)
-- [[Concept - Pods]] (understand the smallest unit)
-- [[Concept - Architecture Overview]] (understand how it all fits together)
+- [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) (practical: run something)
+- [Concept - Pods](Concept%20-%20Pods.md) (understand the smallest unit)
+- [Concept - Architecture Overview](Concept%20-%20Architecture%20Overview.md) (understand how it all fits together)
 
 ## Related Concepts
 
-- [[Concept - Pods]] — The smallest deployable unit
-- [[Concept - Deployments]] — How you declare desired state
-- [[Concept - Services]] — How you expose applications
-- [[Concept - Architecture Overview]] — Complete system overview
+- [Concept - Pods](Concept%20-%20Pods.md) — The smallest deployable unit
+- [Concept - Deployments](Concept%20-%20Deployments.md) — How you declare desired state
+- [Concept - Services](Concept%20-%20Services.md) — How you expose applications
+- [Concept - Architecture Overview](Concept%20-%20Architecture%20Overview.md) — Complete system overview
 
 ---
 

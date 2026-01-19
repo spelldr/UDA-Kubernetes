@@ -320,12 +320,12 @@ If this works, the cluster is fine. Adjust your Pod gradually.
 
 ## Related Pages
 
-- [[Concept - Pods]] to understand Pod lifecycle
-- [[Reference - Pod API]] for all Pod fields
-- [[Task - Deploy Your First Application]] for working example
-- [[Troubleshooting - Service Can't Reach Pod]] if Pod won't respond
+- [Concept - Pods](../30-Concepts/Concept%20-%20Pods.md) to understand Pod lifecycle
+- [Reference - Pod API](../40-Reference/Reference%20-%20Pod%20API.md) for all Pod fields
+- [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) for working example
+- [Troubleshooting - Service Can't Reach Pod](Troubleshooting%20-%20Service%20Can%27t%20Reach%20Pod.md) if Pod won't respond
 
 ## See Also
 
 - Official Kubernetes troubleshooting: https://kubernetes.io/docs/tasks/debug/debug-pod-deployment/
-- Check [[50-Troubleshooting]] for other issues
+- Check [README.md](README.md) for other issues

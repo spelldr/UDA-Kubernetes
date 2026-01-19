@@ -138,5 +138,5 @@ kubectl delete pod my-pod
 
 ## See Also
 
-- [[Concept - Pods]] for explanation
-- [[Task - Deploy Your First Application]] for practical example
+- [Concept - Pods](../../30-Concepts/Concept%20-%20Pods.md) for explanation
+- [Task - Deploy Your First Application](../../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) for practical example

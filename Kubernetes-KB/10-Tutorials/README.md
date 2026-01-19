@@ -15,10 +15,10 @@ Guided learning journeys where you build something real while understanding conc
 
 ## When to Use Other Sections Instead
 
-- **Quick answer** → [[20-Tasks]]
-- **Need to understand theory** → [[30-Concepts]]
-- **Need exact syntax** → [[40-Reference]]
-- **Need to diagnose a problem** → [[50-Troubleshooting]]
+- **Quick answer** → [20-Tasks/README.md](../20-Tasks/README.md)
+- **Need to understand theory** → [30-Concepts/README.md](../30-Concepts/README.md)
+- **Need exact syntax** → [40-Reference/README.md](../40-Reference/README.md)
+- **Need to diagnose a problem** → [50-Troubleshooting/README.md](../50-Troubleshooting/README.md)
 
 ## How Tutorials Are Structured
 
@@ -44,4 +44,4 @@ Each tutorial includes:
 
 ---
 
-**Note:** If a tutorial isn't listed here, the topic might be covered in [[20-Tasks]] as a quick how-to instead.
+**Note:** If a tutorial isn't listed here, the topic might be covered in [20-Tasks/README.md](../20-Tasks/README.md) as a quick how-to instead.

@@ -15,9 +15,9 @@ Track what changed between Kubernetes versions and how to upgrade safely.
 
 ## When to Use Other Sections Instead
 
-- **How to actually upgrade** → [[60-PlatformOps/Runbook - Upgrade Kubernetes Cluster]]
-- **What is a feature** → [[30-Concepts]]
-- **How to use a feature** → [[20-Tasks]]
+- **How to actually upgrade** → [Runbook - Upgrade Kubernetes Cluster](../60-PlatformOps/Runbook%20-%20Upgrade%20Kubernetes%20Cluster.md)
+- **What is a feature** → [30-Concepts/README.md](../30-Concepts/README.md)
+- **How to use a feature** → [20-Tasks/README.md](../20-Tasks/README.md)
 
 ## How This Section Is Organized
 
@@ -50,11 +50,11 @@ v1.27 Release Notes
 
 ## Related Runbooks
 
-- [[60-PlatformOps/Runbook - Upgrade Kubernetes Cluster]]
+- [Runbook - Upgrade Kubernetes Cluster](../60-PlatformOps/Runbook%20-%20Upgrade%20Kubernetes%20Cluster.md)
 
 ---
 
 **Planning an upgrade?**
 1. Read the Release Notes for your target version
-2. Check the [[Breaking Changes]] section
-3. Follow [[60-PlatformOps/Runbook - Upgrade Kubernetes Cluster]]
+2. Check the Breaking Changes section
+3. Follow [Runbook - Upgrade Kubernetes Cluster](../60-PlatformOps/Runbook%20-%20Upgrade%20Kubernetes%20Cluster.md)

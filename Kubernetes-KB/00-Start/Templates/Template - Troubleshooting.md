@@ -92,5 +92,5 @@ To avoid this problem in the future:
 - Check the logs: `kubectl logs [pod-name]`
 - Describe the resource: `kubectl describe pod [pod-name]`
 - Check events: `kubectl get events`
-- See [[Concept - Pods]] for background
+- See [Concept - Pods](../../30-Concepts/Concept%20-%20Pods.md) for background
 

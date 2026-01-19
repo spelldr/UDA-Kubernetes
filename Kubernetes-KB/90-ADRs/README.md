@@ -14,9 +14,9 @@ Record design decisions: why we chose this technology, this pattern, or this str
 
 ## When to Use Other Sections Instead
 
-- **Need explanation/background** → [[30-Concepts]]
-- **How to implement it** → [[20-Tasks]]
-- **Exact fields/specs** → [[40-Reference]]
+- **Need explanation/background** → [30-Concepts/README.md](../30-Concepts/README.md)
+- **How to implement it** → [20-Tasks/README.md](../20-Tasks/README.md)
+- **Exact fields/specs** → [40-Reference/README.md](../40-Reference/README.md)
 
 ## How ADR Pages Are Structured
 

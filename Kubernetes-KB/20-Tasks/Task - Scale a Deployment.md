@@ -17,7 +17,7 @@ Scaling a Deployment means changing the number of replicas (copies running). Kub
 
 ## Before You Start
 
-- [ ] You have a running Deployment ([[Task - Deploy Your First Application]])
+- [ ] You have a running Deployment ([Task - Deploy Your First Application](Task%20-%20Deploy%20Your%20First%20Application.md))
 - [ ] kubectl installed
 
 ## Option 1: Edit the Manifest (Recommended)
@@ -102,7 +102,7 @@ Kubernetes immediately terminates 3 Pods (and their containers).
 
 ## Autoscaling (Advanced)
 
-Kubernetes can automatically scale based on CPU/memory load. See [[Concept - Horizontal Pod Autoscaling]] for details.
+Kubernetes can automatically scale based on CPU/memory load. See Concept - Horizontal Pod Autoscaling for details.
 
 ## Common Pitfalls
 
@@ -142,12 +142,12 @@ You'll see Pods go from Pending → Running over time.
 
 ## Next Steps
 
-- [[Concept - Deployments]] to understand replicas
-- [[Concept - Horizontal Pod Autoscaling]] for automatic scaling
-- [[Reference - Deployment API]] for all options
+- [Concept - Deployments](../30-Concepts/Concept%20-%20Deployments.md) to understand replicas
+- Concept - Horizontal Pod Autoscaling for automatic scaling
+- Reference - Deployment API (planned) for all options
 
 ## See Also
 
-- [[Task - Deploy Your First Application]] (prerequisite)
-- [[Concept - Deployments]] for explanation
-- [[Troubleshooting - Pod Won't Start]] if Pods don't start
+- [Task - Deploy Your First Application](Task%20-%20Deploy%20Your%20First%20Application.md) (prerequisite)
+- [Concept - Deployments](../30-Concepts/Concept%20-%20Deployments.md) for explanation
+- [Troubleshooting - Pod Won't Start](../50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) if Pods don't start

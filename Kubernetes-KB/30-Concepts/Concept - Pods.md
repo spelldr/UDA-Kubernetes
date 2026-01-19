@@ -189,19 +189,19 @@ spec:
 
 ## Your Next Steps
 
-- [[Task - Deploy Your First Application]] (practical: run your first Pod)
-- [[Concept - Deployments]] (understand how to manage multiple Pods)
-- [[Reference - Pod API]] (see all Pod fields)
+- [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) (practical: run your first Pod)
+- [Concept - Deployments](Concept%20-%20Deployments.md) (understand how to manage multiple Pods)
+- [Reference - Pod API](../40-Reference/Reference%20-%20Pod%20API.md) (see all Pod fields)
 
 ## Related Concepts
 
-- [[Concept - Deployments]] — How to manage multiple Pods
-- [[Concept - Services]] — How to expose Pods
-- [[Concept - Namespaces]] — How Pods are partitioned
-- [[Concept - Architecture Overview]] — How Pods fit in the system
+- [Concept - Deployments](Concept%20-%20Deployments.md) — How to manage multiple Pods
+- [Concept - Services](Concept%20-%20Services.md) — How to expose Pods
+- Concept - Namespaces — How Pods are partitioned
+- [Concept - Architecture Overview](Concept%20-%20Architecture%20Overview.md) — How Pods fit in the system
 
 ## See Also
 
-- [[Task - Deploy Your First Application]] to try it
-- [[Troubleshooting - Pod Won't Start]] if something goes wrong
-- [[Reference - Pod API]] for complete field reference
+- [Task - Deploy Your First Application](../20-Tasks/Task%20-%20Deploy%20Your%20First%20Application.md) to try it
+- [Troubleshooting - Pod Won't Start](../50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) if something goes wrong
+- [Reference - Pod API](../40-Reference/Reference%20-%20Pod%20API.md) for complete field reference

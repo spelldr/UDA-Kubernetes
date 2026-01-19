@@ -62,9 +62,9 @@ kubectl describe deployment my-app
 
 ## Next Steps
 
-- [[Reference - Pod API]] for all Pod fields
-- [[Troubleshooting - Pod Won't Start]] if things go wrong
-- [[Concept - Deployments]] if you want to understand how this works
+- [Reference - Pod API](../../40-Reference/Reference%20-%20Pod%20API.md) for all Pod fields
+- [Troubleshooting - Pod Won't Start](../../50-Troubleshooting/Troubleshooting%20-%20Pod%20Won%27t%20Start.md) if things go wrong
+- [Concept - Deployments](../../30-Concepts/Concept%20-%20Deployments.md) if you want to understand how this works
 
 ## See Also
 

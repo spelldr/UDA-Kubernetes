@@ -17,7 +17,7 @@ A Service exposes Pods with a stable IP/DNS name. This task creates a Service th
 
 ## Before You Start
 
-- [ ] You have a running Deployment ([[Task - Deploy Your First Application]])
+- [ ] You have a running Deployment ([Task - Deploy Your First Application](Task%20-%20Deploy%20Your%20First%20Application.md))
 - [ ] kubectl installed
 
 ## Step 1: Create a Service Manifest
@@ -208,14 +208,14 @@ kubectl delete service nginx-service
 
 ## Next Steps
 
-- [[Task - Scale a Deployment]] to handle more traffic
-- [[Concept - Services]] to understand routing
-- [[Reference - Service API]] for all options
-- [[Troubleshooting - Service Can't Reach Pod]] if it doesn't work
+- [Task - Scale a Deployment](Task%20-%20Scale%20a%20Deployment.md) to handle more traffic
+- [Concept - Services](../30-Concepts/Concept%20-%20Services.md) to understand routing
+- Reference - Service API (planned) for all options
+- [Troubleshooting - Service Can't Reach Pod](../50-Troubleshooting/Troubleshooting%20-%20Service%20Can%27t%20Reach%20Pod.md) if it doesn't work
 
 ## See Also
 
-- [[Task - Deploy Your First Application]] (prerequisite)
-- [[Concept - Services]] for explanation
-- [[Reference - Service API]] for complete reference
-- [[Troubleshooting - Service Can't Reach Pod]] if connection fails
+- [Task - Deploy Your First Application](Task%20-%20Deploy%20Your%20First%20Application.md) (prerequisite)
+- [Concept - Services](../30-Concepts/Concept%20-%20Services.md) for explanation
+- Reference - Service API (planned) for complete reference
+- [Troubleshooting - Service Can't Reach Pod](../50-Troubleshooting/Troubleshooting%20-%20Service%20Can%27t%20Reach%20Pod.md) if connection fails
