@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes-KB/QUICK_INDEX.md",
+                "file": "Kubernetes-KB/20-Tasks/k8s-cp-healthcheck.sh.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "QUICK_INDEX"
+              "title": "k8s-cp-healthcheck.sh"
             }
           }
         ]
@@ -185,6 +185,10 @@
   },
   "active": "cf87617265d81ca7",
   "lastOpenFiles": [
+    "Kubernetes-KB/10-Tutorials/how-to-install-k8s.md",
+    "Kubernetes-KB/20-Tasks/k8s-cp-healthcheck.sh.md",
+    "Kubernetes-KB/10-Tutorials/kubernetes-manual-install-complete.md",
+    "Kubernetes-KB/QUICK_INDEX.md",
     "Kubernetes-KB/00-Start/Welcome & Conventions.md",
     "Kubernetes-KB/README.md",
     "Kubernetes-KB/30-Concepts/Concept - What is Kubernetes.md",
@@ -196,7 +200,6 @@
     "Kubernetes-KB/10-Tutorials/README.md",
     "20-Tasks.md",
     "UDA - Kubernetes/DOCUMENTATION_DOCTRINE.md",
-    "README.md",
-    "Kubernetes-KB/QUICK_INDEX.md"
+    "README.md"
   ]
 }
